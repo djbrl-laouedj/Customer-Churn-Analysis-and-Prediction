@@ -51,6 +51,25 @@ Additional metrics :
 
 - ROC Curve
 
+## Project Structure
+```
+Customer-Churn-Analysis-and-Prediction/
+
+│── my_streamlit_app_vf.py # Streamlit interface
+
+│── CustomerChurn_ML.ipynb # Project notebook
+
+│── requirements.txt # Exact tested dependency versions
+
+│── README.md # Documentation (English)
+
+│── README_FR.md # Documentation (French)
+
+│── .gitignore # Ignored files
+
+└── Caixa Banco.csv # Bank Customers Data
+```
+
 ## Installation
 
 1. Clone the repository
@@ -92,40 +111,52 @@ Run the cells sequentially to :
 
 - Streamlit interface
 
-If you use Google colab :
+## If you want to run the Streamlit demo :
 
+**Google colab :**
 
+Create an account: https://ngrok.com
 
-If you want to run the Streamlit demo :
+Get your auth token: https://dashboard.ngrok.com/get-started/your-authtoken
+
+Add the following code at the end of your script:
+```
+from pyngrok import ngrok
+ngrok.set_auth_token("<YOUR_NGROK_TOKEN>")
+```
+Run Streamlit:
+```
+!streamlit run my_streamlit_app_vf.py &>/dev/null &
+```
+Expose the app:
+```
+public_url = ngrok.connect(8501)
+public_url
+```
+To restart ngrok cleanly if needed:
+```
+from pyngrok import ngrok
+try:
+    ngrok.kill()
+except:
+    pass
+```
+
+**Vs Code :**
+
 ``````
-streamlit run app.py
+streamlit run my_streamlit_app_vf.py
 ``````
 
 ## User Guide
 
-Load the dataset and inspect class imbalance
 
-Apply preprocessing:
-
-Numerical feature scaling
-
-Categorical feature encoding
-
-Train baseline models
-
-Perform hyperparameter tuning
-
-Evaluate models using ROC-AUC and complementary metrics
-
-Select the most stable and well-calibrated model
-
-The goal is not only high performance, but robust and reliable churn ranking.
 
 ## Notes
 
 XGBoost automatically runs on CPU or GPU depending on the environment.
 
-Hyperparameter tuning can take several minutes depending on the model and hardware.
+⚠️ Hyperparameter tuning can take several minutes depending on the model and hardware.
 
 ## 👤 Authors
 
