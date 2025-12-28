@@ -17,7 +17,7 @@ The project focuses on :
 
 ## Models Used
 
-The following models were implemented and compared :
+The following **models** were implemented and compared :
 
 - Logistic Regression
 
@@ -31,11 +31,11 @@ The following models were implemented and compared :
 
 - XGBoost
 
-Finally, hyperparameter optimization was performed using RandomizedSearchCV on Random Forest & XGBoost.
+Finally, hyperparameter optimization was performed using **RandomizedSearchCV** on Random Forest & XGBoost.
 
 ## Evaluation Strategy
 
-Since customer churn is a highly imbalanced classification problem, accuracy alone is not sufficient.
+Since customer churn is a highly imbalanced classification problem, **accuracy alone is not sufficient**.
 
 The main evaluation metric used is :
 
@@ -95,11 +95,9 @@ pip install -r requirements.txt
 
 ## How to Use the Project
 
-Running the notebooks
+Running the notebook
 
-Open the Jupyter notebooks in the notebooks/ folder
-
-Run the cells sequentially to :
+Run the cells **sequentially** to :
 
 - Load and preprocess the data
 
@@ -154,7 +152,7 @@ This application is organized into **two main pages**, accessible from the left 
 
 <img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/538f4faa-b250-4f22-94fe-d21930a38f3d" />
 
-### Page 1 — Customer Churn Prediction**
+### Page 1 — Customer Churn Prediction
 
 This page allows users to predict the churn risk of an individual customer and understand the reasoning behind the prediction.
 
@@ -170,7 +168,7 @@ This page allows users to predict the churn risk of an individual customer and u
 
 - Bagging
 
-The selected model will be used to compute the churn probability.
+The selected model will be used to compute the **churn probability**.
 
 **2. Decision Threshold**
 
@@ -210,7 +208,7 @@ A higher threshold makes the decision more conservative.
 
 - Active membership status
 
-These inputs represent the customer’s profile used by the model to generate a prediction.
+These inputs represent the **customer’s profile** used by the model to generate a prediction.
 
 **4. Run the Prediction**
 
@@ -286,31 +284,31 @@ This page provides a global analytical view of customer churn.
 
 The page includes multiple visualizations :
 
-**Global churn distribution**
+**Global churn distribution :**
 
 <img width="921" height="414" alt="image" src="https://github.com/user-attachments/assets/76437006-137a-4ff9-b423-b9930893421d" />
 
-**Churn rate by gender**
+**Churn rate by gender :**
 
 <img width="858" height="399" alt="image" src="https://github.com/user-attachments/assets/d87d3904-5948-43ac-8894-b17887ee1ba3" />
 
-**Churn rate by country**
+**Churn rate by country :**
 
 <img width="858" height="387" alt="image" src="https://github.com/user-attachments/assets/a20131c5-33e2-4958-95e8-ed23b1584ada" />
 
-**Segment-based churn heatmaps (age × number of products)**
+**Segment-based churn heatmaps (age × number of products) :**
 
 <img width="886" height="408" alt="image" src="https://github.com/user-attachments/assets/570d1945-2afd-44fd-ac06-b1b1cfe236b4" />
 
-**Customer profile distributions**
+**Customer profile distributions :**
 
 <img width="904" height="481" alt="image" src="https://github.com/user-attachments/assets/bad7aac2-f129-4aac-bb76-f69ea7723a2f" />
 
-**Summary Insights : **
+**Summary Insights :**
 
 <img width="912" height="186" alt="image" src="https://github.com/user-attachments/assets/ee34c908-a298-4ccc-904e-b7adddb59c13" />
 
-A synthesis section highlights key findings, such as :
+**A synthesis section highlights key findings, such as :**
 
 - Inactive customers have significantly higher churn rates
 
