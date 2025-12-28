@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-# 🔍 Project Overview
+## 🔍 Project Overview
 
 **Customer churn** is a major challenge for many businesses, especially in the banking sector.
 This project aims to predict whether a customer is likely **to leave the company** using supervised machine learning models.
@@ -15,7 +15,7 @@ The project focuses on :
 
 - Evaluating models using appropriate metrics such as ROC-AUC, F1-score, and Recall
 
-# Models Used
+## Models Used
 
 The following models were implemented and compared :
 
@@ -33,7 +33,7 @@ The following models were implemented and compared :
 
 Finally, hyperparameter optimization was performed using RandomizedSearchCV on Random Forest & XGBoost.
 
-# Evaluation Strategy
+## Evaluation Strategy
 
 Since customer churn is a highly imbalanced classification problem, accuracy alone is not sufficient.
 
@@ -51,44 +51,57 @@ Additional metrics :
 
 - ROC Curve
 
-# Installation
+## Installation
 
 1. Clone the repository
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/djbrl-laouedj/Customer-Churn-Analysis-and-Prediction.git
 ```
 ```
-cd your-repo-name
+cd Customer-Churn-Analysis-and-Prediction
 ```
-3. Create a virtual environment (recommended)
+
+2. Create a virtual environment (recommended)
+```
 python -m venv venv
+```
+```
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
-4. Install dependencies
+3. Install dependencies
+```
 pip install -r requirements.txt
+```
 
-▶️ How to Use the Project
+## How to Use the Project
+
 Running the notebooks
 
 Open the Jupyter notebooks in the notebooks/ folder
 
-Run the cells sequentially to:
+Run the cells sequentially to :
 
-Load and preprocess the data
+- Load and preprocess the data
 
-Train multiple models
+- Train multiple models
 
-Perform hyperparameter tuning
+- Perform hyperparameter tuning
 
-Evaluate and compare model performance
+- Evaluate and compare model performance
 
-Streamlit application (optional)
+- Streamlit interface
 
-If you want to run the Streamlit demo:
+If you use Google colab :
 
+
+
+If you want to run the Streamlit demo :
+``````
 streamlit run app.py
+``````
 
-👤 User Guide
+## User Guide
 
 Load the dataset and inspect class imbalance
 
@@ -108,32 +121,14 @@ Select the most stable and well-calibrated model
 
 The goal is not only high performance, but robust and reliable churn ranking.
 
-🚀 Technologies Used
-
-Python
-
-Pandas & NumPy
-
-Scikit-learn
-
-XGBoost
-
-Matplotlib & Seaborn
-
-Streamlit (for visualization)
-
-📌 Notes
+## Notes
 
 XGBoost automatically runs on CPU or GPU depending on the environment.
 
 Hyperparameter tuning can take several minutes depending on the model and hardware.
 
-🔮 Future Improvements
+## 👤 Authors
 
-Threshold optimization based on business constraints
+This project was developed by **Djebril Laouedj**,
 
-Cost-sensitive learning
-
-Model explainability (SHAP, feature importance)
-
-Deployment-ready API
+final-year student in **Big Data & Artificial Intelligence** at **ECE Paris**.
