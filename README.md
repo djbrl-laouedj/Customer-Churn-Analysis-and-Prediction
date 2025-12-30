@@ -152,7 +152,7 @@ This application is organized into **two main pages**, accessible from the left 
 
 <img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/538f4faa-b250-4f22-94fe-d21930a38f3d" />
 
-### Page 1 — Customer Churn Prediction
+### Page 1 - Customer Churn Prediction
 
 This page allows users to predict the churn risk of an individual customer and understand the reasoning behind the prediction.
 
@@ -214,7 +214,7 @@ These inputs represent the **customer’s profile** used by the model to generat
 
 <img width="923" height="244" alt="image" src="https://github.com/user-attachments/assets/025dc7a2-fb1b-42ba-80bd-1bc8a72c1f93" />
 
-Click the **“Analyze risk”** button to launch the prediction.
+Click the **“Analyze risk (Analyser le risque)”** button to launch the prediction.
 
 The application displays :
 
@@ -264,7 +264,7 @@ Helps identify structural churn drivers such as :
 
 This section is useful for model interpretation and strategic decision-making.
 
-### Page 2 — Data Monitoring & EDA
+### Page 2 - Data Monitoring & EDA
 
 This page provides a global analytical view of customer churn.
 
