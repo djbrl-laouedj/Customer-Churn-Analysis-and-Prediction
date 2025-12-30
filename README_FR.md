@@ -154,7 +154,7 @@ L’application est organisée en deux pages principales, accessibles via le men
 
 <img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/538f4faa-b250-4f22-94fe-d21930a38f3d" />
 
-### Page 1 — Prédiction du churn client
+### Page 1 - Prédiction du churn client
 
 Cette page permet de prédire le risque de churn d’un client individuel et de comprendre les raisons de cette prédiction.
 
@@ -268,7 +268,7 @@ Mise en évidence des facteurs structurels du churn :
 
 Cette section est utile pour l’interprétation du modèle et l’aide à la décision stratégique.
 
-### Page 2 — Suivi des données & EDA
+### Page 2 - Suivi des données & EDA
 
 Cette page offre une vue analytique globale du churn client.
 
