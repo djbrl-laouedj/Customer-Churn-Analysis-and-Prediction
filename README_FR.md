@@ -218,7 +218,7 @@ Ces variables constituent **le profil client** utilisé par le modèle.
 
 <img width="923" height="244" alt="image" src="https://github.com/user-attachments/assets/025dc7a2-fb1b-42ba-80bd-1bc8a72c1f93" />
 
-Cliquez sur le bouton **« Analyze risk »** pour lancer l’analyse.
+Cliquez sur le bouton **« Analyser le risque »** pour lancer l’analyse.
 
 L’application affiche :
 
