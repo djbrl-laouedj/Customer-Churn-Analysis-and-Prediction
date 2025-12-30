@@ -324,7 +324,7 @@ XGBoost automatically runs on CPU or GPU depending on the environment.
 
 ⚠️ Hyperparameter tuning can take several minutes depending on the model and hardware.
 
-## 👤 Authors
+## 👤 Author
 
 This project was developed by **Djebril Laouedj**,
 
