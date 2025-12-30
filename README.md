@@ -111,7 +111,7 @@ Run the cells **sequentially** to :
 
 ## If you want to run the Streamlit demo :
 
-**Google colab :**
+**On Google colab :**
 
 Create an account: https://ngrok.com
 
@@ -140,7 +140,7 @@ except:
     pass
 ```
 
-**Vs Code :**
+**On Vs Code :**
 
 ``````
 streamlit run my_streamlit_app_vf.py
@@ -240,7 +240,7 @@ Each variable shows :
 
 - Its relative contribution to the final prediction
 
-This helps users understand which customer characteristics drive the churn risk.
+This helps users understand which customer characteristics drive **the churn risk**.
 
 ### Model Explainability (Global – SHAP)
 
@@ -308,7 +308,7 @@ The page includes multiple visualizations :
 
 <img width="912" height="186" alt="image" src="https://github.com/user-attachments/assets/ee34c908-a298-4ccc-904e-b7adddb59c13" />
 
-**A synthesis section highlights key findings, such as :**
+**The synthesis section highlights key findings, such as :**
 
 - Inactive customers have significantly higher churn rates
 
@@ -322,7 +322,7 @@ The page includes multiple visualizations :
 
 XGBoost automatically runs on CPU or GPU depending on the environment.
 
-⚠️ Hyperparameter tuning can take several minutes depending on the model and hardware.
+⚠️ Hyperparameter tuning can take several minutes depending on the model and hardware (GPU recommended).
 
 ## 👤 Author
 
