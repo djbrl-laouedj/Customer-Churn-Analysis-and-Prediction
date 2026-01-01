@@ -1,0 +1,49 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Streamlit
+
+.streamlit/
+streamlit.log
+
+# Machine Learning artifacts
+
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Logs
+
+logs/
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+
+.vscode/
+.idea/
+*.swp
+
+# Google Colab / Ngrok
+
+ngrok.yml
+.ngrok2/
